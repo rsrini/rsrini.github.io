@@ -1,0 +1,232 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Responsive Admin &amp; Dashboard Template based on Bootstrap 5">
+    <meta name="author" content="AdminKit">
+    <meta name="keywords" content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css"></script>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <title>Registration</title>
+    <style>
+        .note {
+            margin: 1rem 0;
+        }
+
+        .dob {
+            width: 21px;
+            position: absolute;
+            top: 13px;
+            right: 15px;
+        }
+
+        /*-----------Datepicker---------*/
+        .ui-datepicker {
+            background: #e7f7ff !important;
+            padding: 20px;
+            border: 1px solid #e7f7ff;
+        }
+
+            .ui-datepicker th {
+                padding: 7px;
+                color: #1685bf;
+            }
+
+        .ui-datepicker-title {
+            font-weight: 600;
+        }
+
+        .ui-datepicker a {
+            color: #000000;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 offset-md-4" style="margin-top: 2rem;">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="login-img">
+                            <img src="sentasia.jpg" style="width: 100px;">
+                            Agent Onboarding
+                        </div>
+                        <div>
+                            <p class="note">Occupation Information</p><br />
+                            <p>Employment Details</p>
+                        </div>
+                        <div class="login-form mt-4">
+                            <form>
+                                <div class="form-row">
+
+                                    <div class="form-group col-md-12">
+
+                                        <select id="drPro">
+                                            <option>Please select whichever is applicable to you?*</option>
+                                            <option>Farmer</option>
+                                            <option>Professional</option>
+                                            <option>Agriculturist/option>
+
+
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <select id="drpSelfE">
+                                            <option>Ary you self employed?*</option>
+                                            <option>Yes</option>
+                                            <option>No</option>
+
+
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <p>What is area of operation?*</p>
+                                        <select id="drpArea">
+                                            <option>Select</option>
+                                            <option>Rural</option>
+                                            <option>Urban</option>
+
+
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group col-md-12">
+                                        <p>What is income per annual?(self+spouse)*</p>
+                                        <select id="drpIncome">
+                                            <option>Select</option>
+                                            <option>1,00,000/option>
+                                            <option>1,00,000-2,00,000</option>
+                                            <option>2,00,000-3,00,000</option>
+                                            <option>3,00,000-4,00,000</option>
+                                            <option>4,00,000-5,00,000</option>
+
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group col-md-12">
+                                        <p>Do you hold agency any of these?*</p>
+                                        <select id="drpIncome">
+                                            <option>Select</option>
+                                            <option>None/option>
+                                            <option>SBI Life</option>
+                                            <option>Max life</option>
+                                            <option>ICICI prulife</option>
+
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group col-md-12">
+                                        <p>Do you hold agency any of these?*</p>
+                                        <select id="drpIncome">
+                                            <option>Select</option>
+                                            <option>None/option>
+                                            <option>SBI Life</option>
+                                            <option>Max life</option>
+                                            <option>ICICI prulife</option>
+
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <p>Have you ever surrendered your license/agency or has  your license/agency ever been cancelled?*</p>
+                                        <select id="drpIncome">
+                                            <option>Select</option>
+                                            <option>Yes</option>
+                                            <option>No</option>
+
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group col-md-12">
+                                        <p>
+                                            Do you have any tie up with in any insurer an employee or director or promoter or hold any insurance activity related license or
+                                            hold any position with any corporate agent/Broker/TPA/insurance marketing firm /any other insurance intermediary ?*
+                                        </p>
+                                        <select id="drpIncome">
+                                            <option>Select</option>
+                                            <option>Yes</option>
+                                            <option>No</option>
+
+                                        </select>
+                                    </div>
+
+
+
+
+                                    <div class="form-group col-md-12">
+                                        <input type="text" class="form-control" placeholder="Enter name of the firm/company" id="txtFirm2">
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <input type="text" class="form-control" placeholder="Enter comments in 100 words">
+                                    </div>
+
+                                    <div class="form-group col-md-12">
+                                        <p>
+                                            Are you one of the promoter orpartner or director in any firm or company?*
+                                        </p>
+                                        <select id="drpPro">
+                                            <option>Select</option>
+                                            <option>Yes</option>
+                                            <option>No</option>
+
+                                        </select>>
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <input type="text" class="form-control" placeholder="Enter name of the firm/company" id="txtFirm2">
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <input type="text" class="form-control" placeholder="Enter PAN of firm/company" id="txtPanC">
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <input type="text" class="form-control" placeholder="Enter TIN of firm/company" id="txtTin">
+                                    </div>
+
+                                    <div class="form-group col-md-12">
+                                        <p>
+                                            Are you dependent on the aforeside relative?*
+                                        </p>
+                                        <select id="drpDep">
+                                            <option>Select</option>
+                                            <option>Yes</option>
+                                            <option>No</option>
+
+                                        </select>
+                                    </div>
+
+                                </div>
+
+
+                                <div class="form-row mt-3">
+                                    <a href="nomination.html" style="width:100%;">
+                                        <button type="button" class="btn btn-submit btn-block">Next</button>
+                                    </a>
+                                </div>
+                                <div class="form-row mt-3">
+                                    <a href="aobpersonal_step1.html" style="width:100%;">
+                                        <button type="button" class="btn btn-submit btn-block">Back</button>
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <script>
+ $(function() {
+$( "#datepicker" ).datepicker();
+});
+    </script>
+</body>
+</html>
